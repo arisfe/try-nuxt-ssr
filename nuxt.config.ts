@@ -5,6 +5,10 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/eslint',
+    '@nuxtjs/sitemap',
   ],
+  sitemap: {
+    siteUrl: 'https://try-nuxt3-for-ssr.vercel.app',
+  }
   // ssr: false
 })
